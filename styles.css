@@ -1,27 +1,27 @@
 
-
 .testimonials {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
+
     
 }
 
-.testimonials img {
-  display: flex;
-  justify-content: s;
+#testimonial-1 {
+    padding: 10px
+}
+
+#testimonial-2 {
+    padding: 10px
+}
+
+#testimonial-3 {
+    padding: 10px
 }
 
 
-
-
-}
-.avatars {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 
 
@@ -55,10 +55,11 @@
     justify-content: center;
     filter: blur(5px);
 
+
 }
 
 #background img{
-    width: 670px;
+    width: 600px;
     height: 600px;
 }
 
@@ -67,8 +68,8 @@ hr {
     height: 3px;
     border: none;
     background-color: red;
-    padding-right: 1000px;
-    margin-right: -1000px;
+    padding-right: 110px;
+    margin-right: -110px;
     padding-left: 1000px;
 	margin-left: -1000px;
 }
@@ -88,12 +89,8 @@ hr {
     background-color: rgb(221,221,221);
     padding-left: 1000px;
     margin-left: -1000px;
-    padding-right: 1000px;
-	margin-right: -1000px;
-   
-
-
-    
+    padding-right: 110px;
+	margin-right: -110px;
 }
 
 
