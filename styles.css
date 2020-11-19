@@ -1,7 +1,7 @@
 #header {
     display: flex;
     justify-content: space-around;
-    background: chartreuse;
+    background: lightgreen;
     /*width: 400px;*/
     padding: 10px;
 }
@@ -10,50 +10,41 @@
     font-size: 18px;
 }
 
+/* For the big background-image:*/
 .main1 {
-    /*background-image:*/
-    /*        url("/images/laptop.JPG");*/
-    /*background-size: cover;*/
-    /*position: relative;*/
     height: 100vh;
     /*read more */
-    background: chartreuse url("images/laptop.JPG") no-repeat center center/cover;
-    /*top: 0;*/
-    /*left: 0;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
+    background: url("img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg")
+    no-repeat center center/cover;
 }
 
+/* For msimbo logo*/
 .main2 {
     display: flex;
     justify-content: center;
-    min-height: calc(100vh - 70px);
+    /*min-height: calc(100vh - 70px);*/
+    background: no-repeat center;
 }
-.image1 {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*position: relative;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*border: 1px;*/
-    /*width: 1200px;*/
-    /*height: 300px;*/
-}
-.image2 {
+
+/* For msimbo logo */
+.msimbo_logo {
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
-    position: absolute;
+    /*position: absolute;*/
     top: 60px;
     left: 10px;
     border: 1px;
     width: 150px;
 }
 
-#main-header1, #main-header2-1, #main-header2-2  {
-    margin-top: 1rem;
-}
-
-.h1, h2 {
+ /* Rules for text at the center */
+.text1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    color: white;
     font-size: 2rem;
 }
 
@@ -76,114 +67,3 @@
     background: #ccc;
     border: 1px solid black;
 }
-
-/** {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*.menu-container {*/
-/*    color: #fff;*/
-/*    background-color: #5995DA; !* Blue *!*/
-/*    padding: 10px 0;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*.menu {*/
-/*    !* border: 1px solid #fff;  for debugging *!*/
-/*    width: 18000px;*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
-
-/*.links {*/
-/*    !* border: 1px solid #fff; *!*/
-/*    display: flex;*/
-/*    justify-content: flex-end;*/
-/*}*/
-
-/*.login {*/
-/*    margin-left: 20px;*/
-/*}*/
-
-/*.header-container {*/
-/*    color: #5995DA;*/
-/*    background-color: #d6e9fe;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*.header {*/
-/*    width: 900px;*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*}*/
-
-
-/*.logo {*/
-/*    border: 1px solid #5995DA;*/
-/*}*/
-
-/*!* .social,*/
-/*.subscribe {*/
-/*    align-self: flex-end;*/
-/*    margin-bottom: 20px;*/
-/*} *!*/
-
-/*.photo-grid-container {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
-
-/*.photo-grid {*/
-/*    width: 900px;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    flex-wrap: wrap;*/
-/*    flex-direction: row;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.photo-grid-item {*/
-/*    bottom: 1px solid   #fff;*/
-/*    width: 300px;*/
-/*    height: 300px;*/
-/*}*/
-
-/*.first-item {*/
-/*    order: 1;*/
-/*}*/
-
-/*.last-item {*/
-/*    order: -1;*/
-/*}*/
-
-/*.footer {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*  }*/
-/*  */
-/*.footer-item {*/
-/*border: 1px solid #fff;*/
-/*background-color: #D6E9FE;*/
-/*height: 200px;*/
-/*flex: 1;*/
-/*}*/
-
-/*.footer-three {*/
-/*    flex: 2;*/
-/*  }*/
-
-/*.footer-one,*/
-/*.footer-three {*/
-/*  background-color: #5995DA;*/
-/*  flex: initial;*/
-/*  width: 300px;*/
-/*}*/
-
-/*.signup {*/
-/*    margin-left: auto;*/
-/*  }*/
