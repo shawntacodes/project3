@@ -48,22 +48,43 @@
     font-size: 2rem;
 }
 
+#six-icons {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    height: 50px;
+    padding: 10px;
+}
+
+.six-icons {
+    background: navajowhite;
+    border: 5px solid black;
+}
+#about-us {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 50px;
+    padding: 10px;
+}
+
+.about_us_class {
+    background: navajowhite;
+    border: 1px solid black;
+}
 #footer {
     display: flex;
     justify-content: space-around;
     background-color: aqua;
-    width: 400px;
     height: 50px;
     padding: 10px;
-    position: fixed;
-    /*margin-bottom: 0px;*/
 }
 
 #footer p {
     font-size: 18px;
 }
 
-.item {
+.footer_class {
     background: #ccc;
     border: 1px solid black;
 }
