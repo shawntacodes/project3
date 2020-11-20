@@ -1,24 +1,91 @@
+body{
+    background: #777;
+}
+.container {
+    position: relative;
 
+
+}
+
+#background {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: -50px; */
+    /* filter: blur(5px); */
+    /* z-index: -999; */
+    background: red url("https://cloud.fullstackacademy.com/image2_190429_143612.jpg?mtime=20190806072650") no-repeat center center/cover ;
+    /* background: black; */
+    padding: 28px;
+
+  
+    
+}
+
+#background img {
+    width: 50px ;
+    height: 50px;
+
+}
+
+   
+
+
+#background div:nth-child(1) {
+    /* width: 150px; */
+    width: 25%;
+    height: 500px;
+    background: white;
+   
+    /* border-radius: 15px 0 0 15px; */
+
+   
+}
+
+#background div:nth-child(2) {
+    /* width: 150px; */
+    width: 25%;
+    height: 500px;
+    /* background: red url("https://d3ecqbn6etsqar.cloudfront.net/Hzd5O8suwWqEj2laFYMyAMsNvYI=/640x320/smart/https://sydneyscience.com.au/app/uploads/sites/7/2019/06/arif-riyanto-974674-unsplash-e1560228572447.jpg") no-repeat center center/cover ; */
+    background: white;
+}
+
+
+#background div:nth-child(3) {
+    /* width: 150px; */
+    width: 25%;
+    height: 500px;
+    /* background: red url("https://image.cnbcfm.com/api/v1/image/106437128-1583948849361kylewoumn.jpg?v=1595014553&w=1400&h=950") no-repeat center center/cover ; */
+    /* border-radius: 0 15px 15px 0; */
+    background: white;
+}
 .testimonials {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
+    /* position: absolute; */
+    z-index: 9999;
+    /* background: white; */
+    position: relative;
+    top: 170px;
 
     
+
+
+
 }
 
 #testimonial-1 {
-    padding: 10px
+    /* padding: 10px */
 }
 
 #testimonial-2 {
-    padding: 10px
+    /* padding: 10px */
 }
 
 #testimonial-3 {
-    padding: 10px
+    /* padding: 10px */
 }
 
 
@@ -50,17 +117,13 @@
 }
 
 
-#background {
-    display: flex;
-    justify-content: center;
-    filter: blur(5px);
 
 
-}
 
-#background img{
-    width: 600px;
-    height: 600px;
+
+/* #background img{
+    width: 635px;
+    height: 600px; */
 }
 
 hr {
@@ -68,10 +131,8 @@ hr {
     height: 3px;
     border: none;
     background-color: red;
-    padding-right: 110px;
-    margin-right: -110px;
-    padding-left: 1000px;
-	margin-left: -1000px;
+    
+
 }
 
 
@@ -87,10 +148,7 @@ hr {
     bottom: 0;
     text-align: center;
     background-color: rgb(221,221,221);
-    padding-left: 1000px;
-    margin-left: -1000px;
-    padding-right: 110px;
-	margin-right: -110px;
+
 }
 
 
