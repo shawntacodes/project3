@@ -2,7 +2,8 @@ body{
     background: #777;
 }
 .container {
-    position: relative;
+    position: absolute;
+    bottom: 0;
 
 
 }
@@ -22,8 +23,8 @@ body{
 }
 
 #background img {
-    width: 50px ;
-    height: 50px;
+    /* width: 1000px ;
+    height: 50px; */
 
 }
 
@@ -117,14 +118,6 @@ body{
 }
 
 
-
-
-
-
-/* #background img{
-    width: 635px;
-    height: 600px; */
-}
 
 hr {
     padding-top: 1px;
